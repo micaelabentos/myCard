@@ -5,10 +5,11 @@
 }
 
 body {
-    background-image: url(assets/fondo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url(assets/fondo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .card-container {
   width: 100vw;
   height: 100vh;
@@ -24,7 +25,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);}
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
 
 .card-top-container {
   width: 250px;
@@ -34,7 +36,6 @@ body {
   align-items: center;
 }
 
-
 .card-img {
   width: 120px;
   height: 120px;
@@ -42,14 +43,13 @@ body {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px;
 }
 
-
-.card-info{
-    width: 250px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+.card-info {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .card-info h1 {
@@ -63,22 +63,28 @@ body {
 }
 
 .card-text {
-    width: 250px;
-    height: 150px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text span {
+  font-size: 16px;
+  margin: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
 .card-text p {
-    font-size: 16px;
-    font-family: "Raleway", sans-serif;
-  }
+  display: none;
+}
 
 .card-icons {
-width: 250px;
- height: 50px;
+  width: 250px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -86,6 +92,5 @@ width: 250px;
 }
 
 .card-icons a {
-    color: #119bf7;
-
+  color: #119bf7;
 }
