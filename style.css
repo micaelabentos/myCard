@@ -30,10 +30,12 @@ body {
 
 .card-top-container {
   width: 250px;
-  height: 180px;
+  height: 230px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .card-img {
@@ -45,7 +47,7 @@ body {
 
 .card-info {
   width: 250px;
-  height: 50px;
+  height: 70px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -53,7 +55,7 @@ body {
 }
 
 .card-info h1 {
-  font-size: 23px;
+  font-size: 21px;
   color: #00a2ff;
 }
 
@@ -69,7 +71,6 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 .card-text span {
@@ -78,9 +79,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.card-text p {
-  display: none;
-}
 
 .card-icons {
   width: 250px;
